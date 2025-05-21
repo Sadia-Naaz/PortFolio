@@ -8,12 +8,13 @@ import Projects from './Components/Projects'
 import Contact from './Components/Contact'
 import NavBar from './Components/NavBar'
 import Experience from './Components/Experience'
+import HeroSection from './Components/HeroSection'
 const App = () => {
   return (
     
     <BrowserRouter>
     <NavBar/>
-     <div className="pt-30 min-h-screen bg-transparent px-4">
+    
     <Routes>
     <Route path='/' element={<HomePage/>} />
     <Route path='/About' element={<About/>} />
@@ -22,7 +23,7 @@ const App = () => {
     <Route path='/Experience' element={<Experience/>} />
     <Route path='/Contact' element={<Contact/>}/>
     </Routes>
-    </div>
+  
     </BrowserRouter>
   )
 }

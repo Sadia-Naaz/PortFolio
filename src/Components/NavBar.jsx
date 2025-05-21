@@ -21,7 +21,7 @@ const NavBar = () => {
     <>
       <header className="w-full shadow-md bg-white/30 dark:bg-gray-900/30 backdrop-blur-md fixed top-0 z-50">
         <nav className="max-w-7xl mx-auto flex items-center justify-between px-4 py-4">
-          <motion.div className="text-2xl font-bold  bg-gradient-to-r from-indigo-500 via-pink-600 to-purple-600 bg-clip-text text-transparent"
+          <motion.div className="text-2xl font-bold  bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500 bg-clip-text text-transparent"
            whileHover={{ scale: 1.1 }}
            whileTap={{ scale: 0.95 }}
           >Sadia's PortFolio</motion.div>

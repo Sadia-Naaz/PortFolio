@@ -4,25 +4,30 @@ import Skills from './Skills'
 import Experience from './Experience'
 import Projects from './Projects'
 import HeroSection from './HeroSection'
+import Contact from './Contact'
+
 
 const HomePage = () => {
   return (
 
     <div>
-      <section id="about">
-        <About />
-      </section>
-      <section>
+       <section>
         <HeroSection />
       </section>
-      <section>
-        <Skills />
+      <section id="about">
+        <About />
       </section>
       <section>
         <Experience />
       </section>
       <section>
         <Projects />
+      </section>
+       <section>
+        <Skills />
+      </section>
+      <section>
+        <Contact/>
       </section>
     </div>
   );
