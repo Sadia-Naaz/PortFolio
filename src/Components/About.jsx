@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const About = () => {
   return (
-    <div className="min-h-screen bg-gray-900 text-white px-8 py-20 flex flex-col gap-10">
+    <section id='about' className="min-h-screen bg-gray-900 text-white px-8 py-20 flex flex-col gap-10">
       
       {/* Section Heading */}
       <h2 className="text-5xl font-bold text-center bg-gradient-to-r from-pink-500 via-indigo-500 to-purple-500 text-transparent bg-clip-text">
@@ -53,7 +53,7 @@ const About = () => {
           </div>
         </motion.div>
       </div>
-    </div>
+    </section>
   );
 };
 

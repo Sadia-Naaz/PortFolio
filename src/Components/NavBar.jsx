@@ -1,14 +1,14 @@
 import React, { useContext, useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from "react-scroll";
 import { motion, AnimatePresence } from 'framer-motion';
 import { Sun, Moon, Menu } from 'lucide-react';
 import {ThemeContext} from '../Context/ThemeContext'
 const links = [
-  { name: "About", to: "/About" },
-  { name: "Skills", to: "/Skills" },
-  { name: "Projects", to: "/Projects" },
-  { name: "Experience", to: "/Experience" },
-  { name: "Contact", to: "/Contact" }
+  { name: "About", to: "about" },
+  { name: "Skills", to: "skills" },
+  { name: "Projects", to: "projects" },
+  { name: "Experience", to: "experience" },
+  { name: "Contact", to: "contact" }
 ];
 
 const MotionLink = motion(Link);
@@ -29,16 +29,17 @@ const NavBar = () => {
           {/* Desktop Links */}
           <div className="hidden md:flex gap-6 items-center">
             {links.map((link) => (
-              <MotionLink
+              <Link
                 key={link.name}
                 to={link.to}
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.95 }}
+                smooth={true} duration={500}
+                whilehover={{ scale: 1.1 }}
+                whiletap={{ scale: 0.95 }}
                 animate={{ height: "auto", opacity: 1 }}
                 className="text-gray-500 text-xl dark:text-gray-100 transition-colors duration-300 hover:text-blue-600 dark:hover:text-blue-400"
               >
                 {link.name}
-              </MotionLink>
+              </Link>
             ))}
           </div>
 

@@ -3,28 +3,22 @@ import { motion } from 'framer-motion';
 
 const experiences = [
   {
-    title: "Full-Time - KDR Tech Innovation",
+    title: "Full Stack Developer - KDR Tech Innovation",
     company: "KDR Tech Innovation",
-    duration: "2025 - Present",
+    duration: "May 2025 - Present",
     description: "Currently working full time focusing on scalable web apps using React, Node.js, and cloud deployment.",
   },
   {
-    title: "Intern - Zaalima Development",
-    company: "Zaalima Development",
-    duration: "2025 - Present",
-    description: "Internship focused on frontend development, UI/UX improvements and feature development using React.",
+    title: "Software Development Engineer (Intern) - Bluestock Fintech.",
+    company: "Bluestock Fintech",
+    duration: "1 June 2025 - 30 July 2025",
+    description: "This is a part-time, unpaid remote internship. I will have the opportunity to collaborate closely with the Bluestock Fintech leadership team, as well as other members of the team, to gain hands-on experience in a dynamic fintech environment."
   },
   {
     title: "Web Developer - Nexabyte Solutions",
     company: "Nexabyte Solutions",
-    duration: "2023 - 2025",
+    duration: "Feb 2025 - April 2025",
     description: "Worked on MERN stack solutions, API integrations and building client web apps.",
-  },
-  {
-    title: "Full Stack Trainee - AccioJob",
-    company: "AccioJob",
-    duration: "Feb 2024 - Aug 2024",
-    description: "Completed full-stack MERN training, Git workflows, project building and deployment.",
   },
 ];
 
@@ -42,7 +36,7 @@ const cardVariants = {
 
 const Experience = () => {
   return (
-    <section className="relative bg-gray-900 text-white py-20 px-4 sm:px-8 md:px-16">
+    <section  id='experience' className="relative  text-white py-20 px-4 sm:px-8 md:px-16">
       <h2 className="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-pink-500 via-indigo-500 to-purple-500 text-transparent bg-clip-text">
         Experience
       </h2>

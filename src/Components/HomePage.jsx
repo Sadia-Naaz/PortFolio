@@ -10,27 +10,17 @@ import Contact from './Contact'
 const HomePage = () => {
   return (
 
+  
+
     <div>
-       <section>
         <HeroSection />
-      </section>
-      <section id="about">
         <About />
-      </section>
-      <section>
         <Experience />
-      </section>
-      <section>
-        <Projects />
-      </section>
-       <section>
+        <Projects />    
         <Skills />
-      </section>
-      <section>
         <Contact/>
-      </section>
-    </div>
-  );
+        </div>
+    )
 };
 
   
