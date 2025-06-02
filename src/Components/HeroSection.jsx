@@ -48,7 +48,7 @@ const HeroSection = () => {
 
           {/* Resume Button */}
           <motion.a
-            href="https://drive.google.com/file/d/1ZD1aEsB-eJ11z9aH2z3heuHaJMvdbAkI/view?usp=sharing"
+            href="https://drive.google.com/file/d/1TzgZQzWpgp5c3Tbbj_hbi3k1FuVHw5kG/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
