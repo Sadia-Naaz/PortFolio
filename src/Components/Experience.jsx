@@ -3,16 +3,10 @@ import { motion } from 'framer-motion';
 
 const experiences = [
   {
-    title: "Full Stack Developer - KDR Tech Innovation",
-    company: "KDR Tech Innovation",
-    duration: "May 2025 - Present",
-    description: "Currently working full time focusing on scalable web apps using React, Node.js, and cloud deployment.",
-  },
-  {
-    title: "Software Development Engineer (Intern) - Bluestock Fintech.",
-    company: "Bluestock Fintech",
-    duration: "1 June 2025 - 30 July 2025",
-    description: "This is a part-time, unpaid remote internship. I will have the opportunity to collaborate closely with the Bluestock Fintech leadership team, as well as other members of the team, to gain hands-on experience in a dynamic fintech environment."
+    title: "Full Stack Developer -Devivers Digital Solutions",
+    company: "Devivers Digital Solutions",
+    duration: "July 2025 - Present",
+    description: "Currently working full time focusing on scalable web apps,mobile applications,online stores custom platforms and more",
   },
   {
     title: "Web Developer - Nexabyte Solutions",

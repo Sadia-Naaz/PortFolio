@@ -12,7 +12,7 @@ const HomePage = () => {
 
   
 
-    <div>
+    <div className='overfolow-x-hidden'>
         <HeroSection />
         <About />
         <Experience />
