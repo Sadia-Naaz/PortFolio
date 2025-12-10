@@ -3,17 +3,24 @@ import { motion } from 'framer-motion';
 
 const experiences = [
   {
-    title: "Full Stack Developer -Devivers Digital Solutions",
+    title: "Full-Stack Developer -Devivers Digital Solutions",
     company: "Devivers Digital Solutions",
-    duration: "July 2025 - Present",
+    duration: "July 1, 2025 - Present",
     description: "Currently working full time focusing on scalable web apps,mobile applications,online stores custom platforms and more",
   },
   {
-    title: "Web Developer - Nexabyte Solutions",
+    title: "Full-Stack Developer - 7Cloud Infotech",
+    company: "7Cloud Infotech",
+    duration: "May 1, 2024 - June 27, 2025",
+    description: "Designed and built end-to-end full-stack applications using modern JavaScript frameworks and cloud infrastructure, delivering responsive and scalable user experiences.Developed robust frontends and optimized backend APIs to handle high-traffic, real-time data, and secure transactions.Integrated CI/CD pipelines and performance monitoring to improve application reliability, development speed, and system performance.Delivered secure, user-centric platforms across e-commerce, fintech, government, and blockchain domains, driving measurable business growth.",
+  },
+  {
+    title: "Full Stack Developer - Nexabyte Solutions",
     company: "Nexabyte Solutions",
-    duration: "Feb 2025 - April 2025",
+    duration: "Feb 1, 2024 - April 30, 2024",
     description: "Worked on MERN stack solutions, API integrations and building client web apps.",
   },
+   
 ];
 
 const cardVariants = {

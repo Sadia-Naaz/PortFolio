@@ -46,7 +46,7 @@ const HeroSection = () => {
             </motion.a>
           </div>
 
-          {/* Resume Button */}
+          {/* Resume Button
           <motion.a
             href="https://drive.google.com/file/d/1TzgZQzWpgp5c3Tbbj_hbi3k1FuVHw5kG/view?usp=sharing"
             target="_blank"
@@ -56,7 +56,7 @@ const HeroSection = () => {
             <button className="mt-4 px-6 py-3 text-lg rounded-md font-semibold bg-gradient-to-r from-indigo-500 via-pink-600 to-purple-600 text-white shadow-lg">
               Download Resume
             </button>
-          </motion.a>
+          </motion.a> */}
         </div>
 
         {/* Profile Image */}

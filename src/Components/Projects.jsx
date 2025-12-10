@@ -41,11 +41,11 @@ const Projects = () => {
       whileHover={{ scale: 1.02 }}
       className="bg-white/5 p-3 rounded-md backdrop-blur-md border border-white/10 hover:shadow-lg transition"
     >
-      <img
+      {/* <img
         src={project.image}
         alt={project.title}
         className="w-full h-36 object-cover rounded-md mb-3"
-      />
+      /> */}
       <h3 className="text-lg font-semibold">{project.title}</h3>
       <p  className="text-xs text-gray-300 my-2 line-clamp-3">{project.description}</p>
 
@@ -60,7 +60,7 @@ const Projects = () => {
         ))}
       </div>
 
-      <div className="flex gap-3 mt-3 text-xs">
+      {/* <div className="flex gap-3 mt-3 text-xs">
         <a
           href={project.liveLink}
           target="_blank"
@@ -77,7 +77,7 @@ const Projects = () => {
         >
           Code
         </a>
-      </div>
+      </div> */}
     </motion.div>
   ))}
 </div>

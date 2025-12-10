@@ -17,6 +17,8 @@ import {
   SiNextdotjs,
   SiVercel,
   SiRender,
+  SiMysql,
+  SiAwslambda,
 } from 'react-icons/si';
 
 const skills = [
@@ -29,11 +31,14 @@ const skills = [
   { name: "TypeScript", icon: <SiTypescript className="text-blue-400" /> },
   { name: "Next.js", icon: <SiNextdotjs className="text-blue-400" /> },
   { name: "Node.js", icon: <SiNodedotjs className="text-green-400" /> },
+  // { name: "Nest.js", icon: <SiNestjs className="text-green-400" /> },
   { name: "Express.js", icon: <SiExpress className="text-gray-300" /> },
   { name: "MongoDB", icon: <SiMongodb className="text-green-500" /> },
+  { name: "MysqL", icon: <SiMysql className="text-green-500" /> },
   { name: "Firebase", icon: <SiFirebase className="text-yellow-500" /> },
   { name: "Git", icon: <SiGit className="text-orange-500" /> },
   { name: "GitHub", icon: <SiGithub className="text-white" /> },
+  { name: "AWS", icon: <SiAwslambda className="text-white" /> },
   { name: "Vercel", icon: <SiVercel className="text-white" /> },
   { name: "Render", icon: <SiRender className="text-white" /> },
 ];
