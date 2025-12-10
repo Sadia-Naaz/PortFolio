@@ -16,7 +16,7 @@ const About = () => {
         {/* Profile Image with Degree Card */}
         <div className="relative w-80 h-80 rounded-sm bg-gradient-to-tr from-indigo-500 via-pink-500 to-purple-600 p-1 shrink-0">
           <img
-            src="/assets/sadia.jpg"
+            src="/assets/ProfilePicture.jpg"
             alt="Sadia Naaz"
             className="w-full h-full object-cover rounded-sm border-[6px] border-white dark:border-gray-900"
           />
