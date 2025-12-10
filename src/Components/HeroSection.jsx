@@ -12,7 +12,7 @@ const HeroSection = () => {
           </h1>
 
           <p className="text-2xl sm:text-3xl font-semibold leading-relaxed">
-            Full Stack Web Developer creating responsive, user-friendly web applications with clean code and modern tools.
+            Full Stack Developer creating responsive, user-friendly web and mobile applications with clean code and modern tools.
           </p>
 
           {/* Social Icons */}

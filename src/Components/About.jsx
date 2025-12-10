@@ -36,15 +36,32 @@ const About = () => {
           className="relative max-w-2xl text-lg leading-relaxed"
         >
           <p>
-            Full Stack Web Developer with hands-on experience building end-to-end applications using the{' '}
-            <strong>MERN stack</strong> (MongoDB, Express.js, React.js, Node.js). I hold an MCA and have completed an
-            intensive full stack training at <strong>AccioJob</strong>, focusing on real-world project development,
-            Git/GitHub, and deployment.
+           I’m a Full-Stack Software Engineer specializing in React, Node.js, Express.js, NestJS, and MongoDB, focused on building scalable, secure, and high-performance web applications that solve real business problems.
+
+Over the past year, 
+<br/>I’ve worked on:
+<ul className="list-disc pl-6 mt-2 space-y-2">
+  <li>High-traffic e-commerce systems handling peak-load events</li>
+  <li>HR, payroll, and CRM platforms that automated manual operations</li>
+  <li>Real-time booking and scheduling systems with conflict-free logic</li>
+  <li>Secure large-scale examination platforms for 100K+ users</li>
+</ul>
+
+I focus on:
+<ul className="list-disc pl-6 mt-2 space-y-2">
+  <li>Designing clean, scalable backend architectures</li>
+  <li> Designing clean, scalable backend architectures</li>
+  <li>Building fast, responsive, and intuitive frontends</li>
+   <li>Optimizing performance with Redis, caching, and efficient queries</li>
+   Creating systems that are reliable, secure, and measurable in impact
+  
+</ul>
+
+I’m not just a developer—I’m a problem solver who enjoys turning complex ideas into simple, scalable products.
+
+If you’re building something ambitious or looking for someone who brings both engineering depth and business mindset, let’s connect.
           </p>
-          <p className="mt-4">
-            Skilled in creating responsive, scalable web apps and passionate about building clean, user-centric
-            interfaces.
-          </p>
+         
 
           {/* Course Card - Bottom Right */}
           <div className="absolute bottom--2 right--2 w-60 p-4 bg-white/10 backdrop-blur-sm rounded-lg shadow-md border border-white/20 z-10">
